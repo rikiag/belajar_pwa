@@ -8,7 +8,7 @@
     <!-- CSS-->
     <link rel="stylesheet" type="text/css" href="<?= base_url()?>assets/css/main.css">
     <!-- Font-icon css-->
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="<?= base_url()?>assets/vendors/font-awesome/css/font-awesome.min.css">
     <title><?= $title ?></title>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries-->
     <!--if lt IE 9
@@ -46,5 +46,13 @@
     <script src="<?= base_url()?>assets/js/bootstrap.min.js"></script>
     <script src="<?= base_url()?>assets/js/plugins/pace.min.js"></script>
     <script src="<?= base_url()?>assets/js/main.js"></script>
+
+    <script src="<?= base_url()?>assets/resources/es6-promise/es6-promise.js"></script>
+    <script src="<?= base_url()?>assets/resources/fetch/fetch.js"></script>
+    <script src="<?= base_url()?>assets/resources/systemjs/system.js"></script>
+
+    <script>
+      System.import('./assets/js/app.js');
+    </script>
   </body>
 </html>

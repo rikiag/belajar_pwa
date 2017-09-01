@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Api_Model extends CI_Model {
+class MService extends CI_Model {
 
 	public $variable;
 
