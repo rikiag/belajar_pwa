@@ -47,6 +47,7 @@
     <script src="<?= base_url()?>assets/js/plugins/pace.min.js"></script>
     <script src="<?= base_url()?>assets/js/main.js"></script>
 
+    <!-- Include es6 and fetch API polyfils, and systen.js for modules javascript -->
     <script src="<?= base_url()?>assets/resources/es6-promise/es6-promise.js"></script>
     <script src="<?= base_url()?>assets/resources/fetch/fetch.js"></script>
     <script src="<?= base_url()?>assets/resources/systemjs/system.js"></script>
